@@ -1,0 +1,15 @@
+name: server_command-plugin
+version: '1.20.1-SNAPSHOT'
+main: com.juhwan.server_commandPlugin.Server_commandPlugin
+api-version: '1.20'
+
+commands:
+  운영자등록:
+    description: "운영자를 등록합니다."
+    usage: "/운영자등록 <Username>"
+  도움:
+    description: "운영자에게 도움을 요청합니다."
+    usage: "/도움 <message>"
+  공지:
+    description: "모든 플레이어에게 공지를 보냅니다."
+    usage: "/공지 <message>"
